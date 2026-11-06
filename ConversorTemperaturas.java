@@ -13,5 +13,15 @@ double celsius = (fahrenheit - 32) * 5.0 / 9.0;
 
 System.out.println("Grados Celsius: " + celsius);
 
+        
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Introduce los grados Celsius: ");
+        double celsius = sc.nextDouble();
+
+        double fahrenheit = (celsius * 9 / 5) + 32;
+
+        System.out.println("Grados Fahrenheit: " + fahrenheit);
+    }
 }
 }
